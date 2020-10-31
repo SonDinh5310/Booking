@@ -73,6 +73,9 @@ const renderReviewsList = (index) => {
   //   removeClass(btnBackElement, "d-none");
   //   addClass(hotelPageElement, "d-none");
   // }
+  const userReviewScreenElement = document.getElementById(
+    "user-review-screen-" + index
+  );
   let htmlString = "";
   const reviews = getReviewsByHotelId(index);
   console.log(reviews);
@@ -108,9 +111,6 @@ const renderListRoomByHotel = (id) => {
                       <td>${rooms[i].description}</td>
                       <td>${rooms[i].numberOfPerson}</td>
                       <td>${rooms[i].price}</td>
-                      <td><button id="${i}" reviewId ="${i}" hotelId="${
-      rooms[i].userId
-    }">Reviews</button></td>
                   </tr>`;
   }
   renderListRoomElement.innerHTML = htmlString;
@@ -135,7 +135,7 @@ const renderListHotels = () => {
                     </div>
                     <div class="col-md-3">
                     <h4 class="font-weight-bold">Reviews Of Hotel</h4>
-                    <div id="user-review-screen-${hotels[i].id}" style="overflow: scroll;overflow-x: hidden;height: 200px">
+                    <div id="user-review-screen-${hotels[i].id}" style="overflow: scroll;overflow-x: hidden;height: 230px">
 
                     </div>
                     </div>
