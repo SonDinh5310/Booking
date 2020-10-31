@@ -123,7 +123,7 @@ const renderListHotels = () => {
   for (let i = 0; i < hotels.length; i++) {
     htmlString += `<div class="row mb-2">
                     <div class="col-md-5 mb-4 mb-md-0">
-                        <img src="${hotels[i].hotelInfo.picture}" class="img-fluid" alt="" >
+                        <img src="${hotels[i].hotelInfo.picture}" class="img-fluid" alt="" style="width:500px">
                     </div>
                     <div class="col-md-4 mb-4 mb-md-0">
                       <h3 class="font-weight-bold">   ${hotels[i].hotelInfo.name}</h3>
