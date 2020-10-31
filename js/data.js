@@ -128,7 +128,7 @@ const listRooms = [
     place: "Sai Gon",
   },
   {
-    id: 2,
+    id: 3,
     userId: 5,
     name: "Deluxe Triple",
     picture:
@@ -143,7 +143,7 @@ const listRooms = [
     place: "Sai Gon",
   },
   {
-    id: 2,
+    id: 4,
     userId: 5,
     name: "Deluxe King",
     picture:
@@ -158,7 +158,7 @@ const listRooms = [
     place: "Sai Gon",
   },
   {
-    id: 3,
+    id: 5,
     userId: 4,
     name: "Opera Wing_Grand Premium",
     picture:
@@ -173,7 +173,7 @@ const listRooms = [
     place: "Ha Noi",
   },
   {
-    id: 3,
+    id: 6,
     userId: 4,
     name: "Opera Wing_Premium",
     picture:
@@ -188,7 +188,7 @@ const listRooms = [
     place: "Ha Noi",
   },
   {
-    id: 3,
+    id: 7,
     userId: 4,
     name: "Opera Wing_Prestige Suite",
     picture:
@@ -203,7 +203,7 @@ const listRooms = [
     place: "Ha Noi",
   },
   {
-    id: 3,
+    id: 8,
     userId: 4,
     name: "Opera Wing_Grand Premium",
     picture:
@@ -218,7 +218,7 @@ const listRooms = [
     place: "Ha Noi",
   },
   {
-    id: 4,
+    id: 9,
     userId: 7,
     name: "Standard",
     picture:
@@ -233,7 +233,7 @@ const listRooms = [
     place: "Da Lat",
   },
   {
-    id: 4,
+    id: 10,
     userId: 7,
     name: "Superior",
     picture:
@@ -248,7 +248,7 @@ const listRooms = [
     place: "Da Lat",
   },
   {
-    id: 4,
+    id: 11,
     userId: 7,
     name: "Deluxe",
     picture:
